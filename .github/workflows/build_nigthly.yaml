@@ -1,9 +1,5 @@
 name: Build nightly elabimg
 
-on:
-  schedule:
-    - cron: "42 01 * * *"
-
 ## GITHUB_TOKEN authentication
 permissions:
   contents: read
